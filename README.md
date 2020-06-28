@@ -11,7 +11,7 @@ Website for personal portfolio.
 
 ## Included Packages
 
-- [X]() X
+- [responsive_builder](https://pub.dev/packages/responsive_builder) version 0.2.0+2, contains widgets that allows you to create a readable responsive UI.
 
 ## Run
 

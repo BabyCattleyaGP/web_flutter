@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:web_baby/widgets/button_get_in_touch.dart';
 import 'package:web_baby/widgets/centered.dart';
 import 'package:web_baby/widgets/main_description.dart';
-import 'package:web_baby/widgets/navbar.dart';
+import 'package:web_baby/widgets/navbar/navbar.dart';
 
 class Home extends StatelessWidget {
   const Home({Key key}) : super(key: key);
