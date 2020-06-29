@@ -11,7 +11,10 @@ Website for personal portfolio.
 
 ## Included Packages
 
+- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) version 8.8.1, use font awesome icon
 - [responsive_builder](https://pub.dev/packages/responsive_builder) version 0.2.0+2, contains widgets that allows you to create a readable responsive UI.
+- [universal_html](https://pub.dev/packages/universal_html) version 1.2.3 A cross-platform dart:html
+- [url_launcher](https://pub.dev/packages/url_launcher) version 5.4.11, A Flutter plugin for launch URL 
 
 ## Run
 

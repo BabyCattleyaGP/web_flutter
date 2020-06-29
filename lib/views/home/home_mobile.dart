@@ -13,7 +13,7 @@ class HomeMobile extends StatelessWidget {
       children: <Widget>[
         MainDescription(),
         SizedBox(
-          height: 60,
+          height: 20,
         ),
         ButtonGetInTouch('Get In Touch'),
       ],

@@ -3,6 +3,7 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'package:web_baby/views/home/home_desktop.dart';
 import 'package:web_baby/views/home/home_mobile.dart';
 import 'package:web_baby/widgets/centered.dart';
+import 'package:web_baby/widgets/footer/footer.dart';
 import 'package:web_baby/widgets/navbar/navbar.dart';
 import 'package:web_baby/widgets/navbar/navbar_drawer/navbar_drawer.dart';
 
@@ -26,7 +27,8 @@ class Home extends StatelessWidget {
                   mobile: HomeMobile(),
                   desktop: HomeDesktop(),
                 ),
-              )
+              ),
+              Footer()
             ],
           ),
         ),

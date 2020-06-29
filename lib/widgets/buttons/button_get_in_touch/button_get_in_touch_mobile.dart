@@ -8,12 +8,12 @@ class ButtonGetInTouchMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60,
+      height: 40,
       alignment: Alignment.center,
       child: Text(
         title,
         style: TextStyle(
-          fontSize: 18,
+          fontSize: 16,
           fontWeight: FontWeight.w800,
           color: Colors.white,
         ),

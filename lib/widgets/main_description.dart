@@ -12,7 +12,7 @@ class MainDescription extends StatelessWidget {
 
       double titleSize =
           sizingInformation.deviceScreenType == DeviceScreenType.mobile
-              ? 50
+              ? 40
               : 80;
       double descriptionSize =
           sizingInformation.deviceScreenType == DeviceScreenType.mobile
