@@ -15,7 +15,7 @@ class NavigationBarMobile extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.menu),
             onPressed: () {
-              print('Hai');
+              Scaffold.of(context).openDrawer();
             },
           ),
           NavBarLogo()
