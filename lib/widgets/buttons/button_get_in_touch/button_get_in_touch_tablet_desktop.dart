@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:web_baby/config/themes.dart';
 
-class ButtonGetInTouch extends StatelessWidget {
+class ButtonGetInTouchTabletDesktop extends StatelessWidget {
   final String title;
-  const ButtonGetInTouch(this.title);
+  const ButtonGetInTouchTabletDesktop(this.title);
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +18,9 @@ class ButtonGetInTouch extends StatelessWidget {
         ),
       ),
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 31, 229, 146),
-          borderRadius: BorderRadius.circular(5)),
+        color: primaryColor,
+        borderRadius: BorderRadius.circular(5),
+      ),
     );
   }
 }

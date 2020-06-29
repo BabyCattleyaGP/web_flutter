@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:web_baby/views/home.dart';
+import 'package:web_baby/views/home/home.dart';
 
 import 'config/themes.dart';
 
